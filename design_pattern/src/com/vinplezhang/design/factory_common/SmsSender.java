@@ -1,0 +1,10 @@
+package com.vinplezhang.design.factory_common;
+
+public class SmsSender implements Sender {
+
+	@Override
+	public void Send() {
+		 System.out.println("this is sms sender!");
+	}
+
+}
